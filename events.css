@@ -1,0 +1,135 @@
+/* /Pour le mobile First */
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    max-width: 400px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar_searchetnotification {
+    padding: 10px 0px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 400px;
+    justify-content: space-around;
+}
+
+.bar_searchetnotification input {
+    height: fit-content;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.bar_searchetnotification {
+    display: flex;
+
+    align-items: center;
+}
+
+.section2_nav {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+}
+
+.section2_nav a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.section2_nav a:hover {
+    text-decoration: none;
+    color: rgba(8, 0, 255, 0.442);
+}
+
+.logo {
+    width: 100px;
+}
+
+/* /Pour la section d'Actiliate */
+.h1{
+    text-align:center;
+    margin-top:20px;
+    color: #003AA6;
+}
+.contanier{
+    height:800px;
+}
+.carte1{
+    position: relative;
+    width:90%;
+    height:200px;
+    background:url('images/NASA\ observe\ la\ croissance\ rapide\ d’un\ trou\ noir\ géant..png') no-repeat center center/cover;
+}
+.text1 h1 .text1 p{
+  position:absolute;
+  
+}
+.text1 h1{
+    font-size:14px;
+    color:white;
+}
+.text1 p{
+    color:white;
+    line-height:auto;
+    font-size:12px;
+    /* margin-top:10px; */
+    text-align: center;
+}
+
+.text1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;  
+}
+
+
+/* Pour le media de pc */
+/* 
+@media (min-width:700px){
+.bar_searchetnotification,.section2_nav{
+    min-width: 100%;
+    justify-content: space-evenly;
+}
+.section2_nav a{
+    font-size: 1.5rem;
+}
+.logo{
+    width: 150px;
+}
+.bar_searchetnotification input{
+    height: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+    width: 25%;
+}
+} */
+/* section Actialite 
+
+
+.contanier {
+  display: grid; /* katkhdem b grid system 
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes b nafs la taille 
+  gap: 2rem; /* l’espace bin cartes 
+  max-width:400px ;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.contanier div {
+  background-color: #111320;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+} 
+*/
